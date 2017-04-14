@@ -1,0 +1,1060 @@
+2017-02-20 09:43:41,956 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml
+2017-02-20 09:43:43,246 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 09:43:44,226 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCTutorial/src/main/java
+2017-02-20 09:43:44,227 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringMVCTutorial/src/main/resources
+2017-02-20 09:43:44,228 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCTutorial/src/test/java
+2017-02-20 09:43:46,623 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2017-02-20 09:43:47,472 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:43:47,504 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:43:47,507 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:43:47,507 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:45:10,132 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:45:10,140 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:45:10,142 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:45:10,143 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:45:23,845 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:45:23,848 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:45:23,852 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:45:23,853 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:46:59,328 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 09:46:59,860 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:46:59,864 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:46:59,866 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:46:59,867 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:46:59,868 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCTutorial
+2017-02-20 09:46:59,869 [Worker-17] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCTutorial
+2017-02-20 09:46:59,875 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:28,100 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 09:47:28,796 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:28,800 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:47:28,803 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:28,804 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:47:28,804 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCTutorial
+2017-02-20 09:47:28,804 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCTutorial
+2017-02-20 09:47:28,811 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:29,885 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:29,886 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:47:29,887 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:29,888 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:47:47,427 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 09:47:47,929 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:47,932 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:47:47,935 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:47:47,940 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:47:47,941 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCTutorial
+2017-02-20 09:47:47,941 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCTutorial
+2017-02-20 09:47:47,947 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:48:32,478 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:48:32,499 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:48:32,501 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:48:32,503 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:48:33,536 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:48:33,537 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:48:33,538 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:48:33,539 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 09:49:06,193 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:49:06,194 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 09:49:06,195 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 09:49:06,196 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:05:09,064 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:09,075 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:05:09,076 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:09,077 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:05:20,074 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:20,075 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:05:20,076 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:20,077 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:05:31,027 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:31,028 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:05:31,029 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:05:31,030 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:23:31,377 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:23:31,380 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:23:31,381 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:23:31,382 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:24:39,617 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:24:39,618 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:24:39,619 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:24:39,620 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 10:25:20,457 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:25:20,458 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 10:25:20,462 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 10:25:20,463 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:40:47,119 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:40:47,124 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:40:47,125 [Worker-222] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:40:47,126 [Worker-222] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:41:02,871 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:02,872 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:41:02,874 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:02,874 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:41:09,332 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:09,333 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:41:09,334 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:09,335 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:41:42,022 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:42,027 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:41:42,029 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:42,030 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:41:59,095 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:59,096 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:41:59,098 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:41:59,098 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:42:42,604 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:42:42,605 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:42:42,607 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:42:42,607 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:43:00,753 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-20 16:43:19,276 [Worker-219] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-02-20 16:43:19,277 [Worker-219] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-02-20 16:43:53,992 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:43:53,994 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:43:53,997 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:43:53,997 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:44:02,184 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-20 16:44:14,595 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-02-20 16:44:14,596 [Worker-223] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-02-20 16:44:37,855 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:44:37,856 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:44:37,857 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:44:37,858 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:45:03,326 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:45:03,327 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:45:03,328 [Worker-223] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:45:03,329 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:45:22,552 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:45:22,553 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:45:22,554 [Worker-221] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:45:22,555 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:50:38,964 [Worker-227] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 16:50:39,533 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:50:39,536 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:50:39,537 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:50:39,538 [Worker-227] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:50:39,538 [Worker-227] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCTutorial
+2017-02-20 16:50:39,538 [Worker-227] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCTutorial
+2017-02-20 16:50:39,541 [Worker-227] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:19,486 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:19,487 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:52:19,488 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:19,489 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:52:25,387 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:25,388 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:52:25,389 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:25,390 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:52:31,634 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:31,635 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:52:31,636 [Worker-230] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:52:31,637 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:54:07,425 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:07,425 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:54:07,426 [Worker-226] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:07,427 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:54:20,496 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:20,497 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:54:20,498 [Worker-232] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:20,499 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:54:39,343 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:39,344 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:54:39,344 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:54:39,345 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:55:00,817 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:55:00,818 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:55:00,820 [Worker-224] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:55:00,820 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:55:51,088 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:55:51,089 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:55:51,090 [Worker-234] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:55:51,090 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:59:24,683 [Worker-235] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:59:24,685 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:59:24,685 [Worker-235] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:59:24,686 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 16:59:34,188 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:59:34,190 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 16:59:34,191 [Worker-236] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 16:59:34,192 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:02:09,731 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:02:09,733 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:02:09,733 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:02:09,734 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:05:27,267 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:27,268 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:05:27,269 [Worker-242] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:27,269 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:05:37,216 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:37,217 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:05:37,219 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:37,219 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:05:41,589 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:41,590 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:05:41,591 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:41,591 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:05:44,874 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:44,875 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:05:44,878 [Worker-248] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:44,878 [Worker-248] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:05:51,511 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:51,513 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:05:51,514 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:05:51,515 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:00,963 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:00,964 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:00,965 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:00,965 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:05,580 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:05,581 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:05,581 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:05,582 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:10,003 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:10,004 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:10,005 [Worker-239] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:10,005 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:17,389 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:17,390 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:17,391 [Worker-247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:17,392 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:37,863 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:37,865 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:37,866 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:37,866 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:06:43,633 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:43,634 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:06:43,636 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:06:43,637 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 17:08:28,324 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:08:28,325 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 17:08:28,326 [Worker-246] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 17:08:28,326 [Worker-246] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:15:04,815 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:04,818 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:15:04,820 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:04,820 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:15:13,846 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:13,847 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:15:13,848 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:13,848 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:15:52,581 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:52,582 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:15:52,583 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:15:52,583 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:16:19,713 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:16:19,714 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:16:19,715 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:16:19,716 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:16:54,341 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:16:54,342 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:16:54,343 [Worker-356] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:16:54,344 [Worker-356] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:17:46,006 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:17:46,007 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:17:46,009 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:17:46,009 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:18:34,008 [Worker-357] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:18:34,010 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:18:34,011 [Worker-357] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:18:34,012 [Worker-357] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:26:43,104 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-20 22:27:04,836 [Worker-361] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-02-20 22:27:04,836 [Worker-361] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-02-20 22:30:44,074 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:30:44,076 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:30:44,079 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:30:44,080 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:31:01,152 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:31:01,152 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:31:01,153 [Worker-362] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:31:01,153 [Worker-362] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:31:05,764 [Worker-361] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:31:05,765 [Worker-361] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:31:05,766 [Worker-361] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:31:05,766 [Worker-361] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:32:03,810 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:32:03,811 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:32:03,812 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:32:03,813 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:32:18,835 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:32:18,835 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:32:18,836 [Worker-353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:32:18,837 [Worker-353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:39:10,734 [Worker-363] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-02-20 22:39:11,702 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.pom
+2017-02-20 22:39:11,848 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.pom
+2017-02-20 22:39:11,926 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,005 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,082 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,160 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,190 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,268 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,349 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,432 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,508 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,582 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,654 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,733 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.pom
+2017-02-20 22:39:12,845 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar
+2017-02-20 22:39:13,603 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar
+2017-02-20 22:39:13,847 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar
+2017-02-20 22:39:14,234 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.5.RELEASE/spring-aop-4.3.5.RELEASE.jar
+2017-02-20 22:39:14,275 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar
+2017-02-20 22:39:14,758 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.5.RELEASE/spring-beans-4.3.5.RELEASE.jar
+2017-02-20 22:39:14,802 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar
+2017-02-20 22:39:15,467 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.5.RELEASE/spring-context-4.3.5.RELEASE.jar
+2017-02-20 22:39:15,508 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2017-02-20 22:39:16,239 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2017-02-20 22:39:16,285 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.jar
+2017-02-20 22:39:16,480 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.5.RELEASE/spring-expression-4.3.5.RELEASE.jar
+2017-02-20 22:39:16,547 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar
+2017-02-20 22:39:17,160 [Worker-363] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar
+2017-02-20 22:39:17,835 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:17,838 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:39:17,840 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:17,840 [Worker-363] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:39:17,841 [Worker-363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCTutorial
+2017-02-20 22:39:17,841 [Worker-363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCTutorial
+2017-02-20 22:39:17,843 [Worker-363] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:18,154 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:18,157 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:39:18,158 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:18,159 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:39:47,905 [Worker-366] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE-sources.jar
+2017-02-20 22:39:48,418 [Worker-366] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE-sources.jar
+2017-02-20 22:39:48,457 [Worker-366] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.3.5.RELEASE
+2017-02-20 22:39:48,590 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:48,591 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:39:48,592 [Worker-350] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:48,593 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:39:49,479 [Worker-350] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-webmvc:4.3.5.RELEASE
+2017-02-20 22:39:49,603 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:49,603 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:39:49,604 [Worker-366] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:39:49,605 [Worker-366] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:40:21,244 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-20 22:40:28,409 [Worker-366] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-02-20 22:40:28,409 [Worker-366] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-02-20 22:46:01,253 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:46:01,293 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:46:01,303 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:46:01,304 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 22:51:24,304 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:51:24,327 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 22:51:24,333 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 22:51:24,334 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-20 23:16:22,294 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 23:16:22,322 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-20 23:16:22,326 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-20 23:16:22,326 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-22 11:52:00,628 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:52:00,661 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-22 11:52:00,666 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:52:00,667 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-22 11:53:27,548 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:53:27,572 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-22 11:53:27,575 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:53:27,576 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-22 11:55:08,615 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:55:08,616 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-22 11:55:08,619 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:55:08,620 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-22 11:55:11,958 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:55:11,961 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-22 11:55:11,963 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-22 11:55:11,964 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-02-22 11:55:24,305 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-22 11:56:17,147 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-02-22 11:56:17,150 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-10 16:49:54,036 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 16:49:54,053 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-10 16:49:54,056 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-10 16:49:54,057 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-10 16:51:17,593 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-10 16:51:17,594 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:29:05,230 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:29:05,260 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-13 23:29:05,264 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:29:05,264 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-13 23:30:53,002 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-13 23:30:53,004 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:37:57,984 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-13 23:38:19,819 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-13 23:38:19,819 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:39:10,956 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-13 23:39:19,019 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-13 23:39:19,020 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:41:30,116 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-13 23:41:39,612 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-13 23:41:39,613 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:43:32,068 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:43:32,074 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-13 23:43:32,075 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:43:32,076 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-13 23:43:54,498 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-13 23:44:03,317 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-13 23:44:03,317 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-13 23:50:56,310 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:50:56,315 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-13 23:50:56,317 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:50:56,317 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-13 23:51:12,116 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:51:12,117 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-13 23:51:12,119 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:51:12,120 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-13 23:51:18,536 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:51:18,537 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-13 23:51:18,539 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-13 23:51:18,540 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-13 23:56:42,205 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 00:06:32,034 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:32,035 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:06:32,036 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:32,037 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:06:37,679 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:37,683 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:06:37,685 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:37,685 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:06:40,589 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:40,589 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:06:40,591 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:06:40,592 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:07:29,772 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:07:29,773 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:07:29,775 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:07:29,775 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:10:07,857 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:10:07,858 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:10:07,859 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:10:07,859 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:10:53,037 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:10:53,038 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:10:53,040 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:10:53,041 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:19:47,609 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/LifeWisely/pom.xml
+2017-04-14 00:19:47,765 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:19:47,855 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/main/java
+2017-04-14 00:19:47,856 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LifeWisely/src/main/resources
+2017-04-14 00:19:47,856 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/test/java
+2017-04-14 00:19:49,754 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2017-04-14 00:19:49,969 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:19:49,970 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:19:49,972 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:19:49,972 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:20:39,051 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:20:39,052 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:20:39,054 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:20:39,055 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:21:29,231 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:21:29,232 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:21:29,234 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:21:29,234 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:21:30,330 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:21:30,331 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:21:30,332 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:21:30,332 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:22:08,709 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:22:08,884 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:08,884 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:22:08,889 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:08,890 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:22:08,891 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:22:08,892 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:22:08,907 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:10,038 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:10,039 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:22:10,042 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:10,042 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:22:31,785 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:22:31,935 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:31,936 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:22:31,937 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:31,938 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:22:31,938 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:22:31,938 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:22:31,942 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:46,043 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:22:46,163 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:46,163 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:22:46,165 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:22:46,165 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:22:46,165 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:22:46,165 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:22:46,171 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:20,846 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:23:20,909 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:20,910 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:23:20,913 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:20,914 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:23:20,914 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:23:20,914 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:23:20,919 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:22,030 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:22,031 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:23:22,032 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:22,033 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:23:47,751 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:23:47,878 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:47,879 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:23:47,882 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:47,883 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:23:47,884 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:23:47,884 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:23:47,889 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:49,019 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:49,019 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:23:49,021 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:49,022 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:23:59,495 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 00:23:59,646 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:59,648 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:23:59,649 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:23:59,650 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:23:59,650 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 00:23:59,650 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 00:23:59,654 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:26:15,475 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:26:15,476 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:26:15,478 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:26:15,479 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:26:59,475 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:26:59,475 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:26:59,477 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:26:59,477 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:27:39,239 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:27:39,241 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:27:39,242 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:27:39,243 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:28:01,044 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:28:01,045 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:28:01,047 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:28:01,048 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:29:11,113 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:11,114 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:29:11,116 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:11,116 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:29:19,551 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:19,558 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:29:19,559 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:19,559 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:29:20,570 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:20,571 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:29:20,572 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:20,573 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 00:29:33,026 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:33,027 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:29:33,028 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:33,029 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:29:42,811 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:42,812 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:29:42,813 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:29:42,814 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:30:25,799 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:30:25,800 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:30:25,801 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:30:25,802 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:30:53,031 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:30:53,031 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:30:53,033 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:30:53,035 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:31:29,131 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:31:29,131 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:31:29,132 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:31:29,132 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 00:31:51,316 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 00:32:21,859 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 00:32:40,638 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 00:32:40,639 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 00:36:59,842 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 00:37:00,752 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:37:00,754 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 00:37:00,754 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 00:37:00,755 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 09:13:17,665 [Worker-72] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 09:13:17,797 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:13:17,799 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:13:17,801 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:13:17,802 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 09:13:17,802 [Worker-72] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 09:13:17,802 [Worker-72] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 09:13:17,812 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:13:42,213 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:13:42,214 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:13:42,215 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:13:42,216 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 09:26:43,859 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 09:26:54,445 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 09:26:54,445 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 09:28:45,396 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:28:45,397 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:28:45,398 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:28:45,398 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 09:32:32,912 [Worker-80] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 09:32:32,994 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:32:32,994 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:32:32,995 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:32:32,996 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 09:32:32,996 [Worker-80] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 09:32:32,996 [Worker-80] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 09:32:33,010 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:50:20,072 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:50:20,073 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:50:20,074 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:50:20,075 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 09:50:38,672 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:50:38,673 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 09:50:38,673 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 09:50:38,674 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:04:28,749 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 10:04:34,877 [Worker-79] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-14 10:04:34,877 [Worker-79] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 10:05:56,354 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:05:56,354 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:05:56,355 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:05:56,356 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 10:06:23,436 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:06:23,436 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:06:23,437 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:06:23,437 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 10:06:56,225 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:06:56,226 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:06:56,227 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:06:56,227 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 10:07:50,640 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 10:07:58,373 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 10:07:58,373 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 10:09:33,642 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:09:33,643 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:09:33,644 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:09:33,645 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:10:48,906 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:10:48,907 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:10:48,908 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:10:48,909 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:11:09,002 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:11:09,002 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:11:09,003 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:11:09,004 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:14:03,457 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:03,457 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:14:03,458 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:03,459 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:14:19,914 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:19,915 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:14:19,916 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:19,916 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:14:48,511 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:48,512 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:14:48,513 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:14:48,513 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:18:26,286 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:26,287 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:18:26,287 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:26,288 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:18:37,751 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:37,752 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:18:37,753 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:37,754 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:18:45,895 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:45,897 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:18:45,898 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:18:45,899 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:44:25,578 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:44:25,580 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:44:25,581 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:44:25,582 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:45:04,787 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 10:45:12,842 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 10:45:12,842 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 10:45:36,955 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:45:36,956 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:45:36,957 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:45:36,957 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:45:49,426 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 10:45:58,031 [Worker-131] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 10:45:58,031 [Worker-131] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 10:47:04,441 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:47:04,442 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:47:04,443 [Worker-130] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:47:04,443 [Worker-130] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 10:47:07,816 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:47:07,817 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 10:47:07,818 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 10:47:07,818 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:01:16,635 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:01:16,636 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:01:16,637 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:01:16,637 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 11:02:02,444 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:02:11,337 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-14 11:02:11,338 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:04:44,172 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:04:49,627 [Worker-136] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:04:49,627 [Worker-136] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:07:59,394 [Worker-0] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/LifeWisely/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:804) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1010) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$6.call(ProjectRegistryManager.java:1) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4724) ~[na:na]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3522) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2315) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2278) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2193) ~[na:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3932) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4721) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1008) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261) ~[org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1053) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+2017-04-14 11:18:15,947 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 11:18:16,138 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:16,150 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:18:16,154 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:16,154 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:18:17,117 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:17,126 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:18:17,128 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:17,129 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:18:17,393 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:17,394 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:18:17,396 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:17,396 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 11:18:19,397 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:19,397 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:18:19,399 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:19,399 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:18:19,415 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:19,416 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:18:19,417 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:18:19,418 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 11:19:06,876 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:19:22,452 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:19:22,452 [Worker-13] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:20:42,712 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 11:24:50,101 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:24:50,102 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:24:50,103 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:24:50,105 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:24:56,970 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:25:09,729 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:25:09,730 [Worker-2] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:26:02,521 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:26:07,173 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:26:07,173 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:27:29,837 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:29,838 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:27:29,839 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:29,840 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:27:33,969 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:33,970 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:27:33,975 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:33,976 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:27:37,681 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:37,681 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:27:37,682 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:27:37,683 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:28:09,419 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:09,419 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:28:09,421 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:09,421 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:28:12,682 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:12,683 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:28:12,684 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:12,685 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:28:34,285 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:34,286 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 11:28:34,287 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 11:28:34,287 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 11:43:48,406 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:43:53,905 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:43:53,905 [Worker-23] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:44:39,482 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:44:47,213 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:44:47,214 [Worker-7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:49:28,973 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:49:35,664 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:49:35,664 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:49:57,332 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:50:02,830 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:50:02,830 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 11:50:27,694 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 11:50:38,464 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 11:50:38,464 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 12:04:25,527 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/test/pom.xml
+2017-04-14 12:04:25,642 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:test:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/test/pom.xml.
+2017-04-14 12:04:25,705 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/main/java
+2017-04-14 12:04:25,707 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /test/src/main/resources
+2017-04-14 12:04:25,707 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /test/src/test/java
+2017-04-14 12:04:26,399 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-04-14 12:04:26,700 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 12:04:26,701 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 12:04:26,702 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 12:04:26,703 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/test/src/test/resources
+2017-04-14 12:04:27,758 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 12:04:27,759 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 12:04:27,760 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 12:04:27,760 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/test/src/test/resources
+2017-04-14 12:05:48,282 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 13:43:09,533 [Worker-55] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/LifeWisely/pom.xml
+2017-04-14 13:43:10,147 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 13:43:10,638 [Worker-55] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/main/java
+2017-04-14 13:43:10,639 [Worker-55] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LifeWisely/src/main/resources
+2017-04-14 13:43:10,639 [Worker-55] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/test/java
+2017-04-14 13:43:11,502 [Worker-55] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-04-14 13:43:11,766 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:43:11,786 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:43:11,806 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:43:11,808 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:43:11,978 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:43:11,980 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:43:11,983 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:43:11,983 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:44:21,910 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:21,911 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:44:21,912 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:21,912 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:44:44,072 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:44,072 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:44:44,074 [Worker-59] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:44,074 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:44:45,174 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:45,175 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:44:45,177 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:45,177 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:44:47,606 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:47,606 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:44:47,607 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:44:47,608 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:46:20,260 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 13:46:20,811 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:46:20,813 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:46:20,815 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:46:20,816 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:46:20,818 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 13:46:20,819 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 13:46:20,825 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:46:21,908 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:46:21,909 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:46:21,910 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:46:21,910 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:47:33,553 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 13:47:34,061 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:47:34,063 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:47:34,065 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:47:34,066 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:47:34,066 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of LifeWisely
+2017-04-14 13:47:34,066 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for LifeWisely
+2017-04-14 13:47:34,071 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:51:20,649 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/LifeWisely/pom.xml
+2017-04-14 13:51:20,928 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 13:51:21,353 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/main/java
+2017-04-14 13:51:21,353 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LifeWisely/src/main/resources
+2017-04-14 13:51:21,353 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/test/java
+2017-04-14 13:51:22,298 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-04-14 13:51:22,436 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:51:22,437 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:51:22,439 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:51:22,439 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 13:51:22,573 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:51:22,577 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 13:51:22,578 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 13:51:22,579 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:38:08,829 [Worker-91] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/yawen/Documents/spring/LifeWisely/pom.xml
+2017-04-14 16:38:10,641 [Worker-91] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 16:38:11,904 [Worker-91] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/main/java
+2017-04-14 16:38:11,906 [Worker-91] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /LifeWisely/src/main/resources
+2017-04-14 16:38:11,908 [Worker-91] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /LifeWisely/src/test/java
+2017-04-14 16:38:14,170 [Worker-91] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2017-04-14 16:38:14,782 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:38:14,796 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:38:14,800 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:38:14,800 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:39:36,228 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 16:39:37,051 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:39:37,052 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:39:37,054 [Worker-93] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:39:37,056 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:39:37,673 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:LifeWisely:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/LifeWisely/pom.xml.
+2017-04-14 16:39:38,590 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:39:38,599 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:39:38,601 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:39:38,602 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:40:18,034 [Worker-98] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 16:40:18,163 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:40:18,164 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:40:18,166 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:40:18,166 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:40:18,674 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 16:40:19,357 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:40:19,358 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:40:19,360 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:40:19,361 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:41:09,008 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:41:09,009 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:41:09,010 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:41:09,011 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:41:17,646 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:41:22,793 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-14 16:41:22,794 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:43:36,011 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:43:50,870 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:43:55,925 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 16:43:55,925 [Worker-91] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:50:47,873 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:50:47,875 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:50:47,877 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:50:47,877 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:51:02,665 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:02,667 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:51:02,669 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:02,670 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:51:14,892 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:14,893 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:51:14,894 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:14,895 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:51:48,315 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:48,322 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:51:48,331 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:48,332 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:51:55,676 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:55,677 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:51:55,678 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:51:55,679 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:06,663 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:06,665 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:06,667 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:06,669 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:13,967 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:13,968 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:13,969 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:13,969 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:21,779 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:21,780 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:21,781 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:21,782 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:29,778 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:29,779 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:29,780 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:29,781 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:36,243 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:36,244 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:36,245 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:36,246 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:42,727 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:42,728 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:52:42,730 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:52:42,731 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:52:58,729 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:53:06,657 [Worker-96] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 16:53:06,657 [Worker-96] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:55:00,763 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:00,763 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:55:00,766 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:00,767 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:55:10,971 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:10,972 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:55:10,974 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:10,974 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:55:17,863 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:17,864 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:55:17,865 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:55:17,866 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:55:28,000 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:55:31,609 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-14 16:55:31,609 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:56:22,545 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:56:22,546 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:56:22,547 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:56:22,548 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:57:09,380 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:57:09,381 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:57:09,382 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:57:09,383 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:57:14,274 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:57:14,275 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:57:14,277 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:57:14,277 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 16:57:25,370 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:57:29,189 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/SpringMVCTutorial
+2017-04-14 16:57:29,189 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:58:15,462 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:15,463 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:58:15,465 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:15,466 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:58:20,521 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:20,522 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:58:20,523 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:20,523 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:58:26,090 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:26,092 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 16:58:26,093 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 16:58:26,093 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 16:58:42,112 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:58:47,232 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 16:58:47,232 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 16:59:26,131 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 16:59:32,124 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 16:59:32,125 [Worker-101] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:00:02,740 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:00:09,730 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:00:09,730 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:02:27,157 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:02:31,963 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:02:31,963 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:03:16,097 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:03:22,365 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:03:22,365 [Worker-103] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:04:34,777 [Worker-101] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 17:04:34,874 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:34,877 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:04:34,878 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:34,880 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 17:04:35,113 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:35,114 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:04:35,115 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:35,116 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 17:04:35,552 [Worker-96] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.yawenz.springExample:SpringMVCTutorial:0.0.1-SNAPSHOT @ /Users/yawen/Documents/spring/SpringMVCTutorial/pom.xml.
+2017-04-14 17:04:36,191 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:36,192 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:04:36,194 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:04:36,195 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/SpringMVCTutorial/src/test/resources
+2017-04-14 17:05:30,099 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:05:30,100 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:05:30,101 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:05:30,101 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:05:36,921 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:05:36,923 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:05:36,924 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:05:36,924 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:06:33,468 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:06:33,469 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:06:33,470 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:06:33,471 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:06:48,579 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:06:53,687 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:06:53,688 [Worker-99] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:07:40,291 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:07:40,293 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:07:40,295 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:07:40,296 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:08:08,107 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:08:08,108 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:08:08,109 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:08:08,110 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:08:34,628 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:08:39,465 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:08:39,465 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:09:00,232 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:09:00,233 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:09:00,234 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:09:00,236 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:09:29,756 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:09:34,395 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:09:34,395 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
+2017-04-14 17:10:00,308 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:10:00,308 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-14 17:10:00,309 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-14 17:10:00,310 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yawen/Documents/spring/LifeWisely/src/test/resources
+2017-04-14 17:10:21,775 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-14 17:10:27,236 [Worker-96] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/yawen/Documents/spring/LifeWisely
+2017-04-14 17:10:27,236 [Worker-96] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B tomcat7:run
