@@ -8,8 +8,10 @@
 <title>Success Form</title>
 </head>
 <body>
-	<font color="green"><h1>Hello</h1></font>
-	<h2> ${msg} </h2> You have successfully logged in.
-	<font color="green"><h1>Welcome to Spring world !</h1></font>
+	<h2> Welcome ${UserName} </h2>
+	<h4 class="text-center"><a href="/LifeWisely/CreateReminder">Create Reminder</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/DeleteReminder">Delete Reminder</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/EditReminder">Edit Reminder</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
 </body>
 </html>

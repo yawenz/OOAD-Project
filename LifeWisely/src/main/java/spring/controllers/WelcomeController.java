@@ -1,5 +1,7 @@
 package spring.controllers;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,6 +18,7 @@ import spring.controllers.User;
 @Controller
 
 public class WelcomeController {
+	public String logusername;
 	@GetMapping("/welcome")
 	public String welcome(Model model) {
 		model.addAttribute("firstName", "first");
@@ -44,18 +47,12 @@ public class WelcomeController {
         dataSource.setPassword("root");
         // Inject the datasource into the dao
         dao.setDataSource(dataSource);
-
         dao.create(userForm.getUsername(), userForm.getPassword());
-        /*System.out.println("came till here" + userForm.getUsername() + " " + userForm.getPassword());
-        
-        Session session = this.sessionFactory.getCurrentSession();
-		session.persist(user);
-		System.out.println("Person saved successfully, Person Details="+user);*/
         return "redirect:/login";
     }
 
 	@RequestMapping(method = RequestMethod.POST)
-	public String submit(Model model, @ModelAttribute("loginBean") LoginBean loginBean) {
+	public String submit(Model model, @ModelAttribute("loginBean") LoginBean loginBean,HttpSession session) {
 		if (loginBean != null && loginBean.getUserName() != null & loginBean.getPassword() != null) {
 			PersonDao dao = new PersonDao();
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -66,8 +63,9 @@ public class WelcomeController {
 	        // Inject the datasource into the dao
 	        dao.setDataSource(dataSource);
 	        if(dao.checkuser(loginBean.getUserName(), loginBean.getPassword())){
-			//if (loginBean.getUserName().equals("chandra") && loginBean.getPassword().equals("chandra123")) {
-				model.addAttribute("msg", loginBean.getUserName());
+				model.addAttribute("UserName", loginBean.getUserName());
+				model.asMap().put("UserName",loginBean.getUserName() );
+				session.setAttribute("userName", loginBean.getUserName());
 				return "success";
 			} else {
 				model.addAttribute("error", "Invalid Details");

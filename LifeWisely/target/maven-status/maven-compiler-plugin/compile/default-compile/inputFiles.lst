@@ -1,10 +1,13 @@
+/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/controllers/ReminderController.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/controllers/WelcomeController.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/PersonRowMapper.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/controllers/LoginBean.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/User.java
-/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/config/AppInitializer.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/PersonDao.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/config/AppConfig.java
+/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/createRemDao.java
+/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/UserTesting.java
+/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/controllers/CreateRem.java
+/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/config/AppInitializer.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/spring/controllers/User.java
 /home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/PersonResultExtractor.java
-/home/deepu/ooad/Life/OOAD-Project/LifeWisely/src/main/java/model/UserTesting.java
