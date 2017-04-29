@@ -1,5 +1,8 @@
 package spring.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -10,7 +13,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import model.CreateRemRowMapper;
 import model.PersonDao;
+import model.createRemDao;
 import spring.controllers.LoginBean;
 import spring.controllers.User;
 
@@ -20,9 +25,25 @@ import spring.controllers.User;
 public class WelcomeController {
 	public String logusername;
 	@GetMapping("/welcome")
-	public String welcome(Model model) {
-		model.addAttribute("firstName", "first");
-		return "welcomeMessage";
+	public String welcome(Model model,HttpSession session) {
+		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost/USER");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
+        
+		String username=session.getAttribute("userName").toString();
+		createRemDao allRems = new createRemDao();
+		List<CreateRem> allReminders =  new ArrayList<CreateRem>();
+		allRems.setDataSource(dataSource);
+		allReminders=allRems.selectAll(username);
+		System.out.println("came here to redirect");
+		if(allReminders.size()!=0)
+		model.addAttribute("allReminders", allReminders);
+		else
+			model.addAttribute("allReminders", null);
+		
+		return "success";
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String init(Model model) {
@@ -66,7 +87,15 @@ public class WelcomeController {
 				model.addAttribute("UserName", loginBean.getUserName());
 				model.asMap().put("UserName",loginBean.getUserName() );
 				session.setAttribute("userName", loginBean.getUserName());
-				return "success";
+				createRemDao allRems = new createRemDao();
+				List<CreateRem> allReminders =  new ArrayList<CreateRem>();
+				allRems.setDataSource(dataSource);
+				allReminders=allRems.selectAll(loginBean.getUserName());
+				if(allReminders.size()!=0)
+				model.addAttribute("allReminders", allReminders);
+				else
+					model.addAttribute("allReminders", null);
+				return "redirect:/welcome";
 			} else {
 				model.addAttribute("error", "Invalid Details");
 				return "login";

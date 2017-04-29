@@ -16,19 +16,20 @@ public class createRemDao  {
 
         public void create(CreateRem obj) {
                 JdbcTemplate insert = new JdbcTemplate(dataSource);
-                insert.update("INSERT INTO Reminder (owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints) VALUES(?,?,?,?,?,?,?,?)",
+                insert.update("INSERT INTO Reminder (owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted) VALUES(?,?,?,?,?,?,?,?,false)",
                                 new Object[] { obj.getOwner(), obj.getName(),obj.getCategory(),obj.getFrequency(),obj.getNotifMode(),obj.getStartTime(),obj.getEndTime(),obj.getRewardPoints() });
         }
-        public boolean checkuser(String username, String password){
-    		boolean userExists = false;
-    		JdbcTemplate jdbcTemplate= new JdbcTemplate(dataSource);
-    		int rowcount = jdbcTemplate.queryForInt("select count(*) from User " +
-    				" where username = ? and password = ?",
-    				username,password);
-    		if(rowcount==1){
-    			userExists = true;
-    		}
-    		return userExists;       
+        public List<CreateRem> selectAll(String username) {
+            JdbcTemplate select = new JdbcTemplate(dataSource);
+            return select.query("select name,category,frequency,starttime,endtime,id,notifmode from Reminder where owner='"+username+"' and iscompleted='0'",
+                            new CreateRemRowMapper());
+        }
+        public List<CreateRem> select(String username, int reminderId){
+        	CreateRem userExists = new CreateRem();
+    		JdbcTemplate select= new JdbcTemplate(dataSource);
+    		 return select.query("select name,category,frequency,starttime,endtime,id,notifmode from Reminder where owner='"+username+"' and id='"+reminderId+"' and iscompleted='0'",
+                     new CreateRemRowMapper());
+    		       
  }
             
 }

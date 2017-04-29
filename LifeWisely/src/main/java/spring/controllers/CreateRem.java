@@ -6,13 +6,14 @@ import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class CreateRem {
+	private int id;
 	private String Owner;
 	private String Name;
 	private String Title;
 	private String Category;
 	private String Frequency;
 	private String NotifMode;
-	private String  StartTime;
+	private String StartTime;
 	private String EndTime;
 	private int RewardPoints;
 	@Autowired
@@ -31,6 +32,12 @@ public class CreateRem {
 	}
 	public CreateRem(){
 		
+	}
+	public int getID(){
+		return id;
+	}
+	public void setID(int id1){
+		id=id1;
 	}
 	public String getOwner() {
 		return Owner;

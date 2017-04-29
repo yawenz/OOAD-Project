@@ -1,5 +1,8 @@
 package spring.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -10,6 +13,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
 import spring.controllers.WelcomeController;
 import model.PersonDao;
 import spring.controllers.LoginBean;
@@ -29,9 +34,30 @@ public class ReminderController {
 		return "createReminder";
 	}
 	@GetMapping("/EditReminder")
-	public String edit(Model model) {
-		model.addAttribute("purpose", "Edit");
+	public String edit(Model model,@RequestParam("getId") int getId,HttpSession session) {
+		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setUrl("jdbc:mysql://localhost/USER");
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
+        
+		String username=session.getAttribute("userName").toString();
+		createRemDao allRems = new createRemDao();
+		CreateRem Reminder =  new CreateRem();
+		allRems.setDataSource(dataSource);
+		Reminder=allRems.select(username,getId).get(0);
+		System.out.println("came here to edit");
+		if(Reminder !=null)
+		model.addAttribute("Reminder", Reminder);
+		else
+		model.addAttribute("Reminder", null);
+		
 		return "editReminder";
+	}
+	@PostMapping("/EditReminder")
+	public String editSubmit(Model model,HttpSession session) {
+		System.out.println("redirected to edit");
+	return "redirect:/welcome";
 	}
 	@GetMapping("/DeleteReminder")
 	public String delete(Model model) {
@@ -79,7 +105,7 @@ public class ReminderController {
 	        System.out.println(session.getAttribute("userName").toString());
 	        dao.create(createRem);
 	    }
-		return "success";
+		return "redirect:/welcome";
 		}
 	
 }
