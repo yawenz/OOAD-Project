@@ -6,8 +6,6 @@ import javax.sql.DataSource;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import org.springframework.jdbc.core.JdbcTemplate;
-
 public class PersonDao  {
         private DataSource dataSource;
 
@@ -33,22 +31,3 @@ public class PersonDao  {
  }
             
 }
-
-/*
-		   public List<Person> selectAll() {
-    JdbcTemplate select = new JdbcTemplate(dataSource);
-    return select.query("select FIRSTNAME, LASTNAME from PERSON",
-                    new PersonRowMapper());
-}
-
-public void deleteAll() {
-    JdbcTemplate delete = new JdbcTemplate(dataSource);
-    delete.update("DELETE from PERSON");
-}
-
-public void delete(String firstName, String lastName) {
-    JdbcTemplate delete = new JdbcTemplate(dataSource);
-    delete.update("DELETE from PERSON where FIRSTNAME= ? AND LASTNAME = ?",
-                    new Object[] { firstName, lastName });
-}
-*/

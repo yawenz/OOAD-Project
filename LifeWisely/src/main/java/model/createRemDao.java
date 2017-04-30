@@ -16,22 +16,31 @@ public class createRemDao  {
 
         public void create(CreateRem obj) {
                 JdbcTemplate insert = new JdbcTemplate(dataSource);
-                insert.update("INSERT INTO Reminder (owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted) VALUES(?,?,?,?,?,?,?,?,false)",
-                                new Object[] { obj.getOwner(), obj.getName(),obj.getCategory(),obj.getFrequency(),obj.getNotifMode(),obj.getStartTime(),obj.getEndTime(),obj.getRewardPoints() });
+                insert.update("INSERT INTO Reminder (owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,title) VALUES(?,?,?,?,?,?,?,?,false,?)",
+                                new Object[] { obj.getOwner(), obj.getName(),obj.getCategory(),obj.getFrequency(),obj.getNotifMode(),obj.getStartTime(),obj.getEndTime(),obj.getRewardPoints(),obj.getTitle() });
         }
+        public void update(CreateRem obj) {
+            JdbcTemplate insert = new JdbcTemplate(dataSource);
+            insert.update("UPDATE Reminder set frequency = ? ,notifmode = ?,starttime = ?,endtime =?,rewardpoints=?,iscompleted=? WHERE id = ?",
+                            new Object[] { obj.getFrequency(),obj.getNotifMode(),obj.getStartTime(),obj.getEndTime(),obj.getRewardPoints(),obj.getisCompleted(),obj.getID() });
+    }
         public List<CreateRem> selectAll(String username) {
             JdbcTemplate select = new JdbcTemplate(dataSource);
-            return select.query("select name,category,frequency,starttime,endtime,id,notifmode from Reminder where owner='"+username+"' and iscompleted='0'",
+            return select.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from Reminder where owner='"+username+"' and iscompleted='0'",
                             new CreateRemRowMapper());
         }
         public List<CreateRem> select(String username, int reminderId){
         	CreateRem userExists = new CreateRem();
     		JdbcTemplate select= new JdbcTemplate(dataSource);
-    		 return select.query("select name,category,frequency,starttime,endtime,id,notifmode from Reminder where owner='"+username+"' and id='"+reminderId+"' and iscompleted='0'",
+    		 return select.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from Reminder where owner='"+username+"' and id='"+reminderId+"' and iscompleted='0'",
                      new CreateRemRowMapper());
     		       
  }
-            
+        public void delete(String username, int reminderId){
+        	JdbcTemplate select= new JdbcTemplate(dataSource);
+    		 select.update("DELETE from Reminder where owner='"+username+"' and id='"+reminderId+"'");
+    		       
+ }        
 }
 
 /*

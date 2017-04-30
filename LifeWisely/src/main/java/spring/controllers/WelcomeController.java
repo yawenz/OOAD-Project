@@ -13,12 +13,11 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import model.CreateRemRowMapper;
 import model.PersonDao;
 import model.createRemDao;
 import spring.controllers.LoginBean;
-import spring.controllers.User;
-
+import model.User;
+import spring.controllers.ReminderController;
 
 @Controller
 
@@ -26,29 +25,32 @@ public class WelcomeController {
 	public String logusername;
 	@GetMapping("/welcome")
 	public String welcome(Model model,HttpSession session) {
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-        dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
-        
 		String username=session.getAttribute("userName").toString();
+		if(username!=""){
+		model.addAttribute("UserName", username);
+		ReminderController rc = new ReminderController();
+		DriverManagerDataSource dataSource =rc.initialiseDataSource();
 		createRemDao allRems = new createRemDao();
 		List<CreateRem> allReminders =  new ArrayList<CreateRem>();
 		allRems.setDataSource(dataSource);
 		allReminders=allRems.selectAll(username);
-		System.out.println("came here to redirect");
 		if(allReminders.size()!=0)
 		model.addAttribute("allReminders", allReminders);
 		else
 			model.addAttribute("allReminders", null);
-		
 		return "success";
+		}else{
+		return "login";
+		}
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String init(Model model) {
-		model.addAttribute("msg", "Please Enter Your Login Details");
-		return "login";
+	public String init(Model model,HttpSession session) {
+		String username=session.getAttribute("userName").toString();
+		if(username!=""){
+		return "redirect:/welcome";
+		}else{
+			return "login";
+		}
 	}
 	
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
@@ -59,15 +61,9 @@ public class WelcomeController {
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@ModelAttribute("User") User userForm, Model model) {
     	PersonDao dao = new PersonDao();
-        // Initialize the datasource, could /should be done of Spring
-        // configuration
-        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-        dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
-        // Inject the datasource into the dao
-        dao.setDataSource(dataSource);
+    	ReminderController rc = new ReminderController();
+		DriverManagerDataSource dataSource =rc.initialiseDataSource();
+		dao.setDataSource(dataSource);
         dao.create(userForm.getUsername(), userForm.getPassword());
         return "redirect:/login";
     }
@@ -76,16 +72,11 @@ public class WelcomeController {
 	public String submit(Model model, @ModelAttribute("loginBean") LoginBean loginBean,HttpSession session) {
 		if (loginBean != null && loginBean.getUserName() != null & loginBean.getPassword() != null) {
 			PersonDao dao = new PersonDao();
-			DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("root");
-	        dataSource.setPassword("1989zyw");
-	        // Inject the datasource into the dao
-	        dao.setDataSource(dataSource);
+			ReminderController rc = new ReminderController();
+			DriverManagerDataSource dataSource =rc.initialiseDataSource();
+			dao.setDataSource(dataSource);
 	        if(dao.checkuser(loginBean.getUserName(), loginBean.getPassword())){
 				model.addAttribute("UserName", loginBean.getUserName());
-				model.asMap().put("UserName",loginBean.getUserName() );
 				session.setAttribute("userName", loginBean.getUserName());
 				createRemDao allRems = new createRemDao();
 				List<CreateRem> allReminders =  new ArrayList<CreateRem>();
@@ -105,5 +96,10 @@ public class WelcomeController {
 			return "login";
 		}
 	}
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+    public String logout(Model model,HttpSession session) {
+		session.setAttribute("userName", "");
+        return "redirect:/";
+    }
 	
 }

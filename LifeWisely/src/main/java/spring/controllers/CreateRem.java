@@ -16,9 +16,10 @@ public class CreateRem {
 	private String StartTime;
 	private String EndTime;
 	private int RewardPoints;
+	private int isCompleted;
 	@Autowired
 	public CreateRem(String owner, String name, String title, String category, String frequency, String notifMode, String startTime,
-			String endTime, int rewardPoints) {
+			String endTime, int rewardPoints, int isCompleted) {
 		super();
 		Owner=owner;
 		Name = name;
@@ -29,6 +30,7 @@ public class CreateRem {
 		StartTime = startTime;
 		EndTime = endTime;
 		RewardPoints = rewardPoints;
+		isCompleted= isCompleted;
 	}
 	public CreateRem(){
 		
@@ -38,6 +40,11 @@ public class CreateRem {
 	}
 	public void setID(int id1){
 		id=id1;
+	}public int getisCompleted(){
+		return isCompleted;
+	}
+	public void setisCompleted(int id1){
+		isCompleted=id1;
 	}
 	public String getOwner() {
 		return Owner;
