@@ -28,9 +28,9 @@ public class WelcomeController {
 	public String welcome(Model model,HttpSession session) {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost/USER");
+        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
         dataSource.setUsername("root");
-        dataSource.setPassword("root");
+        dataSource.setPassword("1989zyw");
         
 		String username=session.getAttribute("userName").toString();
 		createRemDao allRems = new createRemDao();
@@ -63,9 +63,9 @@ public class WelcomeController {
         // configuration
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost/USER");
+        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
         dataSource.setUsername("root");
-        dataSource.setPassword("root");
+        dataSource.setPassword("1989zyw");
         // Inject the datasource into the dao
         dao.setDataSource(dataSource);
         dao.create(userForm.getUsername(), userForm.getPassword());
@@ -78,9 +78,9 @@ public class WelcomeController {
 			PersonDao dao = new PersonDao();
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://localhost/USER");
+	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
 	        dataSource.setUsername("root");
-	        dataSource.setPassword("root");
+	        dataSource.setPassword("1989zyw");
 	        // Inject the datasource into the dao
 	        dao.setDataSource(dataSource);
 	        if(dao.checkuser(loginBean.getUserName(), loginBean.getPassword())){

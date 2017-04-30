@@ -14,9 +14,10 @@
 <body>
 	<h2> Welcome ${UserName} </h2>
 	<h4 class="text-center"><a href="/LifeWisely/CreateReminder">Create Reminder</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/DeleteReminder">Delete Reminder</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/EditReminder">Edit Reminder</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/DeleteGroup">Delete Group</a></h4>
 	<c:if test="${ allReminders != null }">
  <table border="1">
         <tr>

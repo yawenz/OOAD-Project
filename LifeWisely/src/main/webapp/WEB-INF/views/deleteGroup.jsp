@@ -29,27 +29,7 @@
 		<div align="center">
 			<table>
 				<input type="hidden" name="Owner" value="${purpose}" />
-				<tr>
-					<td>Add Collaborators 1</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-				<tr>
-					<td>Add Collaborators 2</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-				<tr>
-					<td>Add Collaborators 3</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-				<tr>
-					<td>Add Collaborators 4</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-				<tr>
-					<td>Add Collaborators 5</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-
+				
 				<tr>
 					<td></td>
 					<td><input type="submit" value="Submit" /></td>

@@ -37,9 +37,9 @@ public class ReminderController {
 	public String edit(Model model,@RequestParam("getId") int getId,HttpSession session) {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost/USER");
+        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
         dataSource.setUsername("root");
-        dataSource.setPassword("root");
+        dataSource.setPassword("1989zyw");
         
 		String username=session.getAttribute("userName").toString();
 		createRemDao allRems = new createRemDao();
@@ -65,9 +65,14 @@ public class ReminderController {
 		return "deleteReminder";
 	}
 	@GetMapping("/CreateGroup")
-	public String group(Model model) {
+	public String createG(Model model) {
 		model.addAttribute("purpose", "Create");
 		return "createGroup";
+	}
+	@GetMapping("/DeleteGroup")
+	public String deleteG(Model model) {
+		model.addAttribute("purpose", "Delete");
+		return "deleteGroup";
 	}
 	/*
 	@PostMapping("/CreateReminder")
@@ -97,9 +102,9 @@ public class ReminderController {
 			createRemDao dao = new createRemDao();
 			DriverManagerDataSource dataSource = new DriverManagerDataSource();
 	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://localhost/USER");
+	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
 	        dataSource.setUsername("root");
-	        dataSource.setPassword("root");
+	        dataSource.setPassword("1989zyw");
 	        dao.setDataSource(dataSource);
 	        createRem.setOwner(session.getAttribute("userName").toString());
 	        System.out.println(session.getAttribute("userName").toString());
