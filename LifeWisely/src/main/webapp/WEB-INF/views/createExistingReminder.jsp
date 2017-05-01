@@ -6,6 +6,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
 <title>Insert title here</title>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -19,6 +20,7 @@
   </script>
 </head>
 <body>
+<p>You are here to ${purpose} Reminder</p>
 		<form:form name="createReminder" method="POST">
 
 		<div align="center">
@@ -38,11 +40,20 @@
 				</tr>
 				<tr>
 					<td>Category</td>
-					<td><input type="text" name="Category" /></td>
+					<td><select name="Category">
+  <option value="health-Drink water">Drink water</option>
+  <option value="hygiene-Cut nails">Cut nails</option>
+</select>
+					</td>
 				</tr>
 				<tr>
 					<td>Frequency</td>
-					<td><input type="text" name="Frequency" /></td>
+					<td><select name="Frequency">
+  <option value="0.5">30 mins</option>
+  <option value="1">1 hour</option>
+  <option value="12">12 hours</option>
+</select>
+					</td>
 				</tr>
 				<tr>
 					<td>StartTime</td>
@@ -50,11 +61,13 @@
 				</tr>
 				<tr>
 					<td>EndTime</td>
-					<td><input id="datetime-local" type="date" name="EndTime" /></td>
+					<td><input type="datetime-local" name="EndTime" /></td>
 				</tr>
 				<tr>
 					<td>NotifMode</td>
-					<td><input type="text" name="NotifMode" /></td>
+					<td><select name="NotifMode">
+					<option value="Email">Email</option>
+					</select></td>
 				</tr>
 				<tr>
 					<td>RewardPoints</td>

@@ -46,8 +46,6 @@ public class WelcomeController {
 		dao.setDataSource(dataSource);
 		List <UserGroup> allGroupReminders=new ArrayList<UserGroup>();
 		allGroupReminders=dao.selectAll(username);
-		System.out.println("after selectAll usergroup");
-		System.out.println(allGroupReminders.size());
 		if(allGroupReminders.size()!=0)
 			model.addAttribute("allGroupReminders", allGroupReminders);
 		else

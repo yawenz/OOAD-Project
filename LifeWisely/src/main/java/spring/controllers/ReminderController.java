@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import spring.controllers.WelcomeController;
+import model.FinalDelete;
 import model.PersonDao;
 import spring.controllers.LoginBean;
 import spring.controllers.CreateRem;
@@ -25,13 +26,19 @@ import model.createRemDao;
 
 
 public class ReminderController {
+	FinalDelete finaldelete	 = new FinalDelete();;
 	public DriverManagerDataSource initialiseDataSource(){
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost/USER");
         dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
+        dataSource.setPassword("root");
         return dataSource;
+	}@GetMapping("/CreateExistingReminder")
+	public String createExisting(Model model,HttpSession session) {
+		model.addAttribute("purpose","someuser");
+		System.out.println(session.getAttribute("userName") + "logged in");
+		return "createExistingReminder";
 	}
 	@GetMapping("/CreateReminder")
 	public String create(Model model,HttpSession session) {
@@ -44,11 +51,13 @@ public class ReminderController {
 		String username=session.getAttribute("userName").toString();
 		if(username!=""){
 		DriverManagerDataSource dataSource = initialiseDataSource();
+		System.out.println("editting reminder nwo");
 		createRemDao allRems = new createRemDao();
 		CreateRem Reminder =  new CreateRem();
 		allRems.setDataSource(dataSource);
 		Reminder=allRems.select(username,getId).get(0);
 		if(Reminder !=null){
+			System.out.println("got it");
 			model.addAttribute("Reminder", Reminder);
 			session.setAttribute("reminderobjtoedit", Reminder);
 			}
@@ -77,19 +86,15 @@ public class ReminderController {
 		String username=session.getAttribute("userName").toString();
 		DriverManagerDataSource dataSource = initialiseDataSource();
 		createRemDao allRems = new createRemDao();
-		CreateRem Reminder =  new CreateRem();
+		CreateRem Reminder;
 		allRems.setDataSource(dataSource);
+		Reminder=allRems.select(username,getId).get(0);
+		finaldelete.performDelete(Reminder);
+		System.out.println("pushed reminder to stack with id"+ Reminder.getID());
 		allRems.delete(username,getId);
 		return "redirect:/welcome"; 
 	
 	}
-/*	
-	@GetMapping("/CreateGroup")
-	public String group(Model model) {
-		model.addAttribute("purpose", "Create");
-		return "createGroup";
-	} */
-	
 	@PostMapping("/CreateReminder")
 	public String Remindersubmit(Model model, @ModelAttribute("CreateRem") CreateRem createRem,HttpSession session) {
 		if (createRem != null ) {
@@ -97,10 +102,32 @@ public class ReminderController {
 			DriverManagerDataSource dataSource = initialiseDataSource();
 			dao.setDataSource(dataSource);
 	        createRem.setOwner(session.getAttribute("userName").toString());
-	        System.out.println(session.getAttribute("userName").toString());
+	        System.out.println(createRem.getTitle());
 	        dao.create(createRem);
 	    }
 		return "redirect:/welcome";
 		}
-	
+	@GetMapping("/UndoDelete")
+	public String undoDelete(Model model, HttpSession session) {
+		System.out.println("undo delete");
+			createRemDao dao = new createRemDao();
+			DriverManagerDataSource dataSource = initialiseDataSource();
+			dao.setDataSource(dataSource);
+	        CreateRem createRem = finaldelete.undo();
+	        System.out.println(createRem.getTitle());
+	        dao.create(createRem);
+	    return "redirect:/welcome";
+		}
+	@PostMapping("/CreateExistingReminder")
+	public String createExistingReminder(Model model, @ModelAttribute("CreateRem") CreateRem createRem,HttpSession session) {
+		if (createRem != null ) {
+			createRemDao dao = new createRemDao();
+			DriverManagerDataSource dataSource = initialiseDataSource();
+			dao.setDataSource(dataSource);
+	        createRem.setOwner(session.getAttribute("userName").toString());
+	        System.out.println(createRem.getTitle());
+	        dao.create(createRem);
+	    }
+		return "redirect:/welcome";
+	}	
 }

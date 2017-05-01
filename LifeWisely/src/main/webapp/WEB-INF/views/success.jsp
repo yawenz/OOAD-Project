@@ -9,6 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
 <title>Success Form</title>
 </head>
 <body>
@@ -18,11 +19,13 @@
 </a>
 </div>
 <div align="center">
-		
 	<h2 style="float:left"> Welcome ${UserName} </h2>
 	<h4 style="float: right"><a href="/LifeWisely/logout">Logout</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/CreateReminder">Create Reminder</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/CreateExistingReminder">Create Existing Reminder</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
+	<h4 class="text-center"><a href="/LifeWisely/UndoDelete">Undo delete reminder</a></h4>
+	
 	</div>
 <div align="center">	
 	<c:if test="${ allReminders != null }">

@@ -7,13 +7,15 @@
 %>
         <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html >
+
 <html>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-<p>Edit Reminder</p>
+
 		<form:form name="EditReminder" method="POST">
 
 		<div align="center">
