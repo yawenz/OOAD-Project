@@ -24,13 +24,6 @@
 					
 					<td>${Reminder.getTitle()}</td>
 				</tr>
-					<tr>
-				
-					<td>Name</td>
-					
-					<td>${Reminder.getName()}</td>
-				</tr>
-			
 				<tr>
 					<td>Category</td>
 					 <td>${Reminder.getCategory()}</td>
@@ -50,17 +43,6 @@
 				<tr>
 					<td>NotifMode</td>
 					<td><input type="text" name="NotifMode" value=${Reminder.getNotifMode()} /></td>
-				</tr>
-				<tr>
-					<td>Reward Points</td>
-					<td><input type="text" name="RewardPoints" value=${Reminder.getRewardPoints()} /></td>
-				</tr>
-				<tr>
-					<td>Completed</td>
-					<td> <select name="isCompleted">
-  <option value="0">Not Completed</option>
-  <option value="1">Completed</option>
-</select> </td>
 				</tr>
 				
 				<tr>

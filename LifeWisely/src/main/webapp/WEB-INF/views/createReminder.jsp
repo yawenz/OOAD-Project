@@ -27,13 +27,7 @@
 			<input type="hidden" name="Owner" value="${purpose}" />
 				<tr>
 				
-					<td>Title</td>
-					
-					<td><input type="text" name="Title" /></td>
-				</tr>
-				<tr>
-				
-					<td>Description</td>
+					<td>Name</td>
 					
 					<td><input type="text" name="Name" /></td>
 				</tr>

@@ -1,62 +1,39 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@page isELIgnored="false"%>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+ <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet"
-	href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script>
-	$(document).ready(function() {
-		// $("#startdatepicker").datepicker();
-		$("#enddatepicker").datepicker();
-
-	});
-</script>
 </head>
 <body>
-	<p>You are here to ${purpose} Group</p>
-	<form:form name="createGroup" method="POST">
-
+	<p>You are here to ${purpose} group</p>
+	<form:form  modelAttribute="UserGroup" method="POST">
 		<div align="center">
 			<table>
-				<input type="hidden" name="Owner" value="${purpose}" />
 				<tr>
-					<td>Add Collaborators 1</td>
-					<td><input type="text" name="Name" /></td>
+					<td>Group Name</td>
+					<td><input type="text" name="GroupName" /></td>
 				</tr>
 				<tr>
-					<td>Add Collaborators 2</td>
-					<td><input type="text" name="Name" /></td>
+					<td>Simple Description </td>
+					<td><input type="text" name="GroupDescription"></td>
 				</tr>
 				<tr>
-					<td>Add Collaborators 3</td>
-					<td><input type="text" name="Name" /></td>
+					<td>Member's username</td>
+					<td><input type="text" name="GroupMember1"></td>
 				</tr>
 				<tr>
-					<td>Add Collaborators 4</td>
-					<td><input type="text" name="Name" /></td>
+					<td> <input type="submit" value="add more member"> </td>
 				</tr>
-				<tr>
-					<td>Add Collaborators 5</td>
-					<td><input type="text" name="Name" /></td>
-				</tr>
-
 				<tr>
 					<td></td>
 					<td><input type="submit" value="Submit" /></td>
-				</tr>
+				</tr>	
 			</table>
-			<div style="color: red">${error}</div>
-
 		</div>
 	</form:form>
 
