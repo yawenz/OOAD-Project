@@ -12,11 +12,19 @@
 <title>Success Form</title>
 </head>
 <body>
-	<h2> Welcome ${UserName} </h2>
+<div align="center">
+<a href="/LifeWisely/login">
+<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
+</a>
+</div>
+<div align="center">
+		
+	<h2 style="float:left"> Welcome ${UserName} </h2>
+	<h4 style="float: right"><a href="/LifeWisely/logout">Logout</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/CreateReminder">Create Reminder</a></h4>
 	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/DeleteReminder">Delete Reminder</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/EditReminder">Edit Reminder</a></h4>
+	</div>
+<div align="center">	
 	<c:if test="${ allReminders != null }">
  <table border="1">
         <tr>
@@ -35,7 +43,8 @@
        <td>${reminder.getFrequency()}</td>
        <td>${reminder.getStartTime()}</td>
        <td>${reminder.getEndTime()}</td> 
-       <td><a href="/LifeWisely/EditReminder?getId=${reminder.getID()}">Edit Reminder</a></td>
+       <td><a href="/LifeWisely/EditReminder?getId=${reminder.getID()}">Edit</a></td>
+       <td><a href="/LifeWisely/DeleteReminder?getId=${reminder.getID()}">Delete</a></td>
        </tr>
 </c:forEach>
     </table> 
@@ -65,8 +74,10 @@
        <td>${reminder.getGroupDescription()}</td>
        <td><a href="/LifeWisely/LeaveGroup?getId=${reminder.getId()}">Leave</a></td>
        </tr>
+       </tr>
 </c:forEach>
     </table> 
 	</c:if>
+	</div>
 </body>
 </html>

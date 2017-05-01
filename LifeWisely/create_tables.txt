@@ -1,6 +1,0 @@
-create tables:
-//create table user(id int AUTO_INCREMENT, username VARCHAR(100), password VARCHAR(100), PRIMARY KEY(id));
-create table user(username VARCHAR(100), password VARCHAR(100), PRIMARY KEY(username));
-create table reminder(id int AUTO_INCREMENT, owner VARCHAR(100), name VARCHAR(100), category VARCHAR(100), frequency VARCHAR(100), notifmode VARCHAR(100), starttime VARCHAR(100), endtime VARCHAR(100), rewardpoints int, iscompleted bool, PRIMARY KEY(id));
-create table groups(id int AUTO_INCREMENT, groupname VARCHAR(100), groupdescription VARCHAR(200), reminder_id int, PRIMARY KEY(id));
-create table usergroup(id int AUTO_INCREMENT, group_id int, user_name VARCHAR(100), PRIMARY KEY(id));

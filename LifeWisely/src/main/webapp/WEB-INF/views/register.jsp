@@ -27,9 +27,13 @@
 
 <body>
 
-<div class="container">
-    <form:form method="POST" modelAttribute="User" class="form-signin">
+<div style="clear:both" class="form-group">
+    <form:form method="POST" modelAttribute="User" class="form-horizontal">
     		<div align="center">
+    		<a href="/LifeWisely">
+<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
+</a>
+    		
 			<table>
 				<tr>
 					<td>User Name</td>
@@ -40,9 +44,10 @@
 					<td><input type="password" name="password" /></td>
 				</tr>
 			</table>
-		</div>
-
+		
         <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+        </div>
+        
     </form:form>
 </div>
 <!-- /container -->

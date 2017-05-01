@@ -23,17 +23,17 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35-bin.jar"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/src/lib/c3p0-0.9.1-pre6.jar"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/src/lib/c3p0-0.9.1-pre6.src.zip"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/src/lib/jboss-common-jdbc-wrapper-src.jar"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/src/lib/jboss-common-jdbc-wrapper.jar"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35/src/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="E:/inNCAR/CS/Java/WorkSpace/OOAD-Project-master/jstl-1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/mysql-connector-java-5.1.35-bin.jar"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/src/lib/c3p0-0.9.1-pre6.jar"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/src/lib/c3p0-0.9.1-pre6.src.zip"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/src/lib/jboss-common-jdbc-wrapper.jar"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/src/lib/jboss-common-jdbc-wrapper-src.jar"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/mysql-connector-java-5.1.35/src/lib/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/jstl-1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

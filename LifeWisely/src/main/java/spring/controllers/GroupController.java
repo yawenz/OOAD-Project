@@ -1,5 +1,6 @@
 package spring.controllers;
 
+import java.security.acl.Group;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +20,7 @@ import model.GroupDao;
 import model.PersonDao;
 import model.UserGroup;
 import model.createRemDao;
+import spring.controllers.ReminderController;
 
 @Controller
 public class GroupController {
@@ -33,12 +35,9 @@ public class GroupController {
 	public String createSubmit(Model model, @ModelAttribute("UserGroup") UserGroup userGroup, HttpSession session) {
 		System.out.println("in createSubmit");
 		if(userGroup != null) {
+			ReminderController rem = new ReminderController();
+			DriverManagerDataSource dataSource = rem.initialiseDataSource();
 			GroupDao dao=new GroupDao();
-			DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("root");
-	        dataSource.setPassword("1989zyw");
 			dao.setDataSource(dataSource);
 			//insert Group
 			System.out.println("to create group");
@@ -67,11 +66,8 @@ public class GroupController {
 	}
 	@GetMapping("listMyRemindersAndSelectForGroup")
 	public String listMyRemindersAndSelectForGroup(Model model, HttpSession session){
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-        dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
+		ReminderController rem = new ReminderController();
+		DriverManagerDataSource dataSource = rem.initialiseDataSource();
         
 		String username=session.getAttribute("userName").toString();
 		createRemDao allRems = new createRemDao();
@@ -88,11 +84,8 @@ public class GroupController {
 	//after create Groups/UserGroup, select individual reminder as group reminder
 	@GetMapping("AddAsGroupReminder")
 	public String addAsGroupReminder(Model model,@RequestParam("getId") int getId,HttpSession session) {
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-        dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
+		ReminderController rem = new ReminderController();
+		DriverManagerDataSource dataSource = rem.initialiseDataSource();
         
         String username=session.getAttribute("userName").toString();
         GroupDao dao = new GroupDao();
@@ -114,15 +107,15 @@ public class GroupController {
 	public String createReminderForGroupSubmit(Model model, @ModelAttribute("createReminderForGroup") CreateRem rem, HttpSession session){
 		if (rem != null ) {
 			createRemDao dao = new createRemDao();
-			DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("root");
-	        dataSource.setPassword("1989zyw");
+			ReminderController reminderController = new ReminderController();
+			DriverManagerDataSource dataSource = reminderController.initialiseDataSource();
 	        dao.setDataSource(dataSource);
 	        //rem.setOwner(session.getAttribute("userName").toString());
 	        System.out.println(session.getAttribute("userName").toString());
-	        dao.create(rem);
+	        int reminder_id=dao.createAndGetId(rem);
+	        GroupDao dao2=new GroupDao();
+	        dao2.setDataSource(dataSource);
+	        dao2.bindGroupReminder(Integer.parseInt(session.getAttribute("group_id").toString()), reminder_id);
 	        return "redirect:/welcome";
 	    } else{
 	    	return "redirect:/createReminderForGroup";
@@ -130,12 +123,9 @@ public class GroupController {
 	}
 	@GetMapping("LeaveGroup")
 	public String userLeaveGroup(Model model,@RequestParam("getId") int getId,HttpSession session) {
-		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-        dataSource.setUsername("root");
-        dataSource.setPassword("1989zyw");
-        
+		ReminderController rem = new ReminderController();
+		DriverManagerDataSource dataSource = rem.initialiseDataSource();
+		
         String username=session.getAttribute("userName").toString();
         GroupDao dao = new GroupDao();
         dao.setDataSource(dataSource);

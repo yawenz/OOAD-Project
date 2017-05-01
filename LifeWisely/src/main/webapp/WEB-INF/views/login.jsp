@@ -12,6 +12,9 @@
 	<form:form name="submitForm" method="POST">
 
 		<div align="center">
+		<a href="/LifeWisely">
+<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
+</a>
 			<table>
 				<tr>
 					<td>User Name</td>
