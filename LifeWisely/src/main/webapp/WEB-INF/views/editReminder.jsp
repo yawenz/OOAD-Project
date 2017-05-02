@@ -9,16 +9,20 @@
 <!DOCTYPE html >
 
 <html>
-<<<<<<< HEAD
-<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
-=======
 <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
->>>>>>> fefa707d1908d002c7ef4c5f9c17ca9708efd54d
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+<div align="center">
+<a href="/LifeWisely/welcome">
+<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
+</a>
+<h2 >LifeWisely</h2>
+<h6 style="color:#DAA520">Manage things that matter, better</h6>
+
+</div>
 
 		<form:form name="EditReminder" method="POST">
 
