@@ -57,19 +57,15 @@ public class WelcomeController {
 	}
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String init(Model model,HttpSession session) {
-		//String username=session.getAttribute("userName").toString();
-		//if(username!=""){
-		//return "redirect:/welcome";
-		//}else{
-			return "login";
-	//	}
+		return "login";
 	}
 	
 	@RequestMapping(value = "/registration", method = RequestMethod.GET)
-    public String registration(Model model) {
-        
-        return "register";
-    }
+    	public String registration(Model model) {
+        	return "register";
+    	}
+	
+	
     @RequestMapping(value = "/registration", method = RequestMethod.POST)
     public String registration(@ModelAttribute("User") User userForm, Model model) {
     	PersonDao dao = new PersonDao();
@@ -80,7 +76,7 @@ public class WelcomeController {
         return "redirect:/login";
     }
 
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	@RequestMapping(value = "/login", method = RequestMethod.POST, , params={"userLogin"})
 	public String submit(Model model, @ModelAttribute("loginBean") LoginBean loginBean,HttpSession session) {
 		if (loginBean != null && loginBean.getUserName() != null & loginBean.getPassword() != null) {
 			PersonDao dao = new PersonDao();
@@ -108,10 +104,28 @@ public class WelcomeController {
 			return "login";
 		}
 	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.POST, params={"adminLogin"})
+	public String adminLogin(Model model, @ModelAttribute("loginBean") LoginBean loginBean,HttpSession session) {
+		if (loginBean != null && loginBean.getUserName() != null & loginBean.getPassword() != null) {
+        		if (loginBean.getUserName().equals("arya") && loginBean.getPassword().equals("stark")) {
+                		model.addAttribute("msg", "Welcome Admin " + loginBean.getUserName());
+                		return "adminMenu";
+            		} else {
+ 		               model.addAttribute("error", "Invalid Admin Details");
+                		return "login";
+            		}
+        	} else {
+            	model.addAttribute("error", "Please enter Details");
+     	        return "login";
+        	}
+	}
+	
+	
 	@RequestMapping(value = "/logout", method = RequestMethod.GET)
-    public String logout(Model model,HttpSession session) {
+    	public String logout(Model model,HttpSession session) {
 		session.setAttribute("userName", "");
-        return "redirect:/";
-    }
+        	return "redirect:/";
+    	}
 	
 }
