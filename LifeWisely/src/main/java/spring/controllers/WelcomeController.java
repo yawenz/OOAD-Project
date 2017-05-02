@@ -40,6 +40,11 @@ public class WelcomeController {
 		model.addAttribute("allReminders", allReminders);
 		else
 			model.addAttribute("allReminders", null);
+		//get user rewards
+		PersonDao pdao = new PersonDao();
+		pdao.setDataSource(dataSource);
+		int myRewards=pdao.getUserReward(username);
+		model.addAttribute("myRewards", myRewards);
 		//for group reminders
 		System.out.println("111");
 		GroupDao dao=new GroupDao();

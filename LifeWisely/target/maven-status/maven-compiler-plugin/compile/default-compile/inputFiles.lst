@@ -1,16 +1,14 @@
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\User.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\controllers\LoginBean.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\CreateRemRowMapper.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\UserGroupRowMapper.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\PersonDao.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\createRemDao.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\controllers\ReminderController.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\CreateRemResultExtractor.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\controllers\CreateRem.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\UserGroup.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\controllers\WelcomeController.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\config\AppInitializer.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\config\AppConfig.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\UserGroupResultExtractor.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\model\GroupDao.java
-E:\Downloads\OOAD-Project-a403e9c61636ba73b1332288ad36427c7a9c6903\LifeWisely\src\main\java\spring\controllers\GroupController.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/UserGroupResultExtractor.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/GroupDao.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/createRemDao.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/spring/controllers/WelcomeController.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/UserGroupRowMapper.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/CreateRemResultExtractor.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/spring/controllers/CreateRem.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/UserGroup.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/User.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/spring/controllers/LoginBean.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/spring/controllers/GroupController.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/spring/controllers/ReminderController.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/PersonDao.java
+/Users/yawen/Desktop/Courses/CSCI 5448 Object oriented programming/project/OOAD-Project/LifeWisely/src/main/java/model/CreateRemRowMapper.java

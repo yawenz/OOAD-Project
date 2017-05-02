@@ -70,6 +70,13 @@ public class ReminderController {
 		createRemDao allRems = new createRemDao();
 		allRems.setDataSource(dataSource);
 		allRems.update(editRem);
+		//update user rewards
+		if (editRem.getisCompleted() == 1){
+			int this_reward=editRem.getRewardPoints();
+			PersonDao pdao = new PersonDao();
+			pdao.setDataSource(dataSource);
+			pdao.updateUserReward(session.getAttribute("userName").toString(), this_reward);
+		}
 	return "redirect:/welcome";
 	}
 	@GetMapping("/DeleteReminder")

@@ -40,5 +40,17 @@ public class PersonDao  {
     		}
     		return userExists;
         }
+        public int getUserReward(String username){
+        	JdbcTemplate jdbc=new JdbcTemplate(dataSource);
+        	int reward=0;
+        	reward=jdbc.queryForInt("select rewards from User where username=?", username);
+        	return reward;
+        }
+        public void updateUserReward(String username, int newReward){
+        	JdbcTemplate jdbc=new JdbcTemplate(dataSource);
+        	int reward=jdbc.queryForInt("select rewards from User where username=?", username);
+        	reward=reward+newReward;
+        	jdbc.update("update User set rewards=? where username=?", new Object[] {reward, username});
+        }
             
 }
