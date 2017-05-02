@@ -13,8 +13,8 @@
 
 		<div align="center">
 		<a href="/LifeWisely">
-<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
-</a>
+			<img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
+		</a>
 			<table>
 				<tr>
 					<td>User Name</td>
@@ -24,13 +24,10 @@
 					<td>Password</td>
 					<td><input type="password" name="password" /></td>
 				</tr>
-				<tr>
-					<td></td>
-					<td><input type="submit" value="Submit" /></td>
-				</tr>
 			</table>
+			<button type="submit" name="userLogin">User Login</button>
+ 			<button type="submit" name="adminLogin">Admin Login</button>
 			<div style="color: red">${error}</div>
-
 		</div>
 	</form:form>
 </body>
