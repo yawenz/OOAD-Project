@@ -17,9 +17,11 @@ public class CreateRem {
 	private String EndTime;
 	private int RewardPoints;
 	private int isCompleted;
+	private int sumRewards;
+	
 	@Autowired
 	public CreateRem(String owner, String name, String title, String category, String frequency, String notifMode, String startTime,
-			String endTime, int rewardPoints, int isCompleted) {
+			String endTime, int rewardPoints, int isCompleted, int sumRewards) {
 		super();
 		Owner=owner;
 		Name = name;
@@ -31,6 +33,7 @@ public class CreateRem {
 		EndTime = endTime;
 		RewardPoints = rewardPoints;
 		isCompleted= isCompleted;
+		sumRewards = sumRewards;
 	}
 	public CreateRem(){
 		
@@ -51,6 +54,12 @@ public class CreateRem {
 	}
 	public void setOwner(String owner) {
 		Owner = owner;
+	}
+	public void setSumRewards(int sumRewards) {
+		this.sumRewards = sumRewards;
+	}
+	public int getSumRewards() {
+		return sumRewards;
 	}
 	public String getName() {
 		return Name;

@@ -5,13 +5,13 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Create new reminder</title>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
+<title>Insert title here</title>
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
- </head>
+</head>
 <body>
 <div align="center">
 <a href="/LifeWisely/welcome">
@@ -21,39 +21,47 @@
 <h6 style="color:#DAA520">Manage things that matter, better</h6>
 
 </div>
-
 		<form:form name="createReminder" method="POST" cssClass="form-horizontal">
 
 		<div align="center">
 			<table>
+			<input type="hidden" name="Owner" value="${purpose}" />
 				<tr>
 				
 					<td>Title</td>
 					
-					<td><input type="text" name="Title" />	<input type="hidden" name="Owner" value="${purpose}" />
-		</td>
+					<td><input class="col-sm-8 control-label" type="text" name="Title" /></td>
 				</tr>
 				<tr>
 				
 					<td>Description</td>
 					
-					<td><input type="text" name="Name" /></td>
+					<td><input class="col-sm-8 control-label" type="text" name="Name" /></td>
 				</tr>
 				<tr>
 					<td>Category</td>
-					<td><input type="text" name="Category" /></td>
+					<td><select name="Category">
+  <option value="health-Drink water">Drink water</option>
+  <option value="hygiene-Cut nails">Cut nails</option>
+</select>
+					</td>
 				</tr>
 				<tr>
 					<td>Frequency</td>
-					<td><input type="text" name="Frequency" /></td>
+					<td><select name="Frequency">
+  <option value="0.5">30 mins</option>
+  <option value="1">1 hour</option>
+  <option value="12">12 hours</option>
+</select>
+					</td>
 				</tr>
 				<tr>
 					<td>StartTime</td>
-					<td><input type="datetime-local" name="StartTime" /></td>
+					<td><input class="col-sm-8 control-label" type="datetime-local" name="StartTime" /></td>
 				</tr>
 				<tr>
 					<td>EndTime</td>
-					<td><input id="datetime-local" type="date" name="EndTime" /></td>
+					<td><input class="col-sm-8 control-label" type="datetime-local" name="EndTime" /></td>
 				</tr>
 				<tr>
 					<td>NotifMode</td>
@@ -63,12 +71,12 @@
 				</tr>
 				<tr>
 					<td>RewardPoints</td>
-					<td><input type="number" name="RewardPoints" /></td>
+					<td><input class="col-sm-8 control-label" type="number" name="RewardPoints" /></td>
 				</tr>
 				
 				<tr>
 					<td></td>
-					<td><input type="submit" value="Submit" /></td>
+					<td><input class="btn btn-primary" type="submit" value="Submit" /></td>
 				</tr>
 			</table>
 			<div style="color: red">${error}</div>
