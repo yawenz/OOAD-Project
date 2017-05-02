@@ -52,16 +52,18 @@ public class removeUserDao {
 		return userDeleted;			
     }
     
- /*   public <List>User userLogUser(String username){
-    	System.out.println("in userLog "+username);
-		JdbcTemplate ulog= new JdbcTemplate(dataSource);
-		return (User) ulog.query("select * from user where username='" + username + "'", new PersonRowMapper());		
+    public List<CreateRem> userLogUser(String username){
+    	CreateRem userExists = new CreateRem();
+		JdbcTemplate select= new JdbcTemplate(dataSource);
+		//return select.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from Reminder where owner='" + username + "'", new CreateRemRowMapper());		    
+        return select.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from reminder where owner='"+username+"'", new CreateRemRowMapper());
     }
     
-    public CreateRem userLogReminder(String username){
-    	System.out.println("in userLog "+username);
-		JdbcTemplate ulog= new JdbcTemplate(dataSource);
-		//return ulog.query("select * from reminder where owner= '" + username + "'", new CreateRemRowMapper());			
-		return ulog.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from Reminder where owner='" + username + "'", new CreateRemRowMapper());
-    }*/
+    
+    public List<CreateRem> systemLogUser(){
+		JdbcTemplate select= new JdbcTemplate(dataSource);
+		//return select.query("select owner,name,category,frequency,notifmode,starttime,endtime,rewardpoints,iscompleted,id,title from Reminder where owner='" + username + "'", new CreateRemRowMapper());		    
+        return select.query("select owner, sum(rewardpoints) from reminder where iscompleted='1' GROUP BY owner",
+                new CreateSysMapper());
+    }
 }
