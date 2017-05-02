@@ -76,7 +76,7 @@ public class WelcomeController {
         return "redirect:/login";
     }
 
-	@RequestMapping(value = "/login", method = RequestMethod.POST, , params={"userLogin"})
+	@RequestMapping(value = "/login", method = RequestMethod.POST, params={"userLogin"})
 	public String submit(Model model, @ModelAttribute("loginBean") LoginBean loginBean,HttpSession session) {
 		if (loginBean != null && loginBean.getUserName() != null & loginBean.getPassword() != null) {
 			PersonDao dao = new PersonDao();
