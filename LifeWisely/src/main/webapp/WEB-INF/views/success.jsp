@@ -8,36 +8,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"> 
-<title>Success Form</title>
+<title>Home Page</title>
 </head>
 <body>
 <div align="center">
-<a href="/LifeWisely/login">
+<a href="/LifeWisely/welcome">
 <img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
 </a>
 </div>
 <div align="center">
 	<h2 style="float:left"> Welcome ${UserName} </h2>
-	<h4 style="float: right"><a href="/LifeWisely/logout">Logout</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/CreateReminder">Create Reminder</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/CreateExistingReminder">Create Existing Reminder</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/CreateGroup">Create Group</a></h4>
-	<h4 class="text-center"><a href="/LifeWisely/UndoDelete">Undo delete reminder</a></h4>
+	<h4 style="float: right"><a class="btn btn-primary" href="/LifeWisely/logout">Logout</a></h4>
+</div>
+<br>
+
+<div class="container" align="center">	
+	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateReminder">Create Reminder</a>
+	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateExistingReminder">Create Existing Reminder</a>
+	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateGroup">Create Group</a>
+	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/UndoDelete">Undo delete reminder</a>
 	
 	</div>
 <div align="center">	
 	<c:if test="${ allReminders != null }">
- <table border="1">
+ <table class="table table-hover" border="1">
         <tr>
-            <td>Reminder title</td>
-            <td>Category</td>
-            <td>Frequency</td>
-            <td>Start Time:</td>
-            <td>End Time:</td>
-            <td>Edit Reminder:</td>
-            <td>Delete Reminder:</td>
+            <th>Reminder title</th>
+            <th>Category</th>
+            <th>Frequency</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Edit Reminder</th>
+            <th>Delete Reminder</th>
         </tr>
         <c:forEach items="${allReminders}" var="reminder">
     <tr>      
@@ -54,7 +61,7 @@
 	</c:if>
 	<!--  group reminder -->
 		<c:if test="${ allGroupReminders != null }">
- <table border="1">
+ <table class="table table-hover" border="1">
  		<tr> <td> Group Reminders </td> </tr>
         <tr>
             <td>Reminder title</td>
