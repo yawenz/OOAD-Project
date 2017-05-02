@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import model.PersonDao;
+import model.UserGroup;
 import model.createRemDao;
 import model.removeUserDao;
 import model.removeUser;
@@ -25,19 +26,11 @@ import spring.controllers.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import spring.controllers.WelcomeController;
+
 @Controller
 public class adminController {
 	
-	public class ReminderController {
-		public DriverManagerDataSource initialiseDataSource(){
-			DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("rashmi");
-	        dataSource.setPassword("shetty");
-	        return dataSource;
-		}
-		
 	//SUSPEND USER
     @RequestMapping(value = "/suspendUser", method = RequestMethod.GET)
     public String suspend(Model model) {
@@ -49,11 +42,8 @@ public class adminController {
 		System.out.println("here"+rmUser.getUsername());
     	if (rmUser != null && rmUser.getUsername() != null) {
 	    	removeUserDao dao = new removeUserDao();
-	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("rashmi");
-	        dataSource.setPassword("shetty");
+	    	ReminderController rc = new ReminderController();
+	        DriverManagerDataSource dataSource = rc.initialiseDataSource();
 	        dao.setDataSource(dataSource);
 	        if(dao.checkuser(rmUser.getUsername())) {
 	        	dao.suspend(rmUser.getUsername());
@@ -73,11 +63,8 @@ public class adminController {
 		System.out.println("here"+rmUser.getUsername());
     	if (rmUser != null && rmUser.getUsername() != null) {
 	    	removeUserDao dao = new removeUserDao();
-	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("rashmi");
-	        dataSource.setPassword("shetty");
+	    	ReminderController rc = new ReminderController();
+	        DriverManagerDataSource dataSource = rc.initialiseDataSource();
 	        dao.setDataSource(dataSource);
 	        if(dao.checkuser(rmUser.getUsername())) {
 	        	dao.revoke(rmUser.getUsername());
@@ -105,11 +92,8 @@ public class adminController {
 		System.out.println("here"+rmUser.getUsername());
     	if (rmUser != null && rmUser.getUsername() != null) {
 	    	removeUserDao dao = new removeUserDao();
-	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("rashmi");
-	        dataSource.setPassword("shetty");
+	    	ReminderController rc = new ReminderController();
+	        DriverManagerDataSource dataSource = rc.initialiseDataSource();
 	        dao.setDataSource(dataSource);
 	        if(dao.checkuser(rmUser.getUsername())) {
 	        	dao.delete(rmUser.getUsername());
@@ -137,46 +121,52 @@ public class adminController {
 		System.out.println("here"+rmUser.getUsername());
     	if (rmUser != null && rmUser.getUsername() != null) {
 	    	removeUserDao dao = new removeUserDao();
-	        DriverManagerDataSource dataSource = new DriverManagerDataSource();
-	        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/user");
-	        dataSource.setUsername("rashmi");
-	        dataSource.setPassword("shetty");
+	    	ReminderController rc = new ReminderController();
+	        DriverManagerDataSource dataSource = rc.initialiseDataSource();
 	        dao.setDataSource(dataSource);
-	        
+    		
 	        if(dao.checkuser(rmUser.getUsername())) {
 	        	System.out.println("About to get reminder info");
-	        	
-	    		createRemDao allRems = new createRemDao();
-	    		CreateRem Reminder =  new CreateRem();
-	    		allRems.setDataSource(dataSource);
-	    		Reminder=allRems.select(username,getId).get(0);
-	    		if(Reminder !=null){
-	    			model.addAttribute("Reminder", Reminder);
-	        	
-	        	
 	        	String username = rmUser.getUsername();
-	    		Reminder = dao.userLogReminder(username).get(0);
-	    		if(Reminder !=null)
-	    		model.addAttribute("Reminder", Reminder);
-	    		else
-	    		model.addAttribute("Reminder", null);
-	        	return "userLog";
-	        } else {
-                model.addAttribute("error", "No such user found");
-                return "userLog";
-            }
-        } else {
-            model.addAttribute("error", "Please enter Details");
-            return "userLog";
-        }
-	}
-    
-
-    @RequestMapping(value = "/systemLog", method = RequestMethod.GET)
-    public String systemLog(Model model) {
-        model.addAttribute("msg", "Generate System Log");
-        return "systemLog";
+	    		CreateRem Reminder =  new CreateRem();
+	    		List<CreateRem> allReminders =  new ArrayList<CreateRem>();
+	    		dao.setDataSource(dataSource);
+	    		allReminders = dao.userLogUser(username);
+				if(allReminders.size()!=0) {
+					model.addAttribute("allReminders", allReminders);
+				}
+				else {
+					model.addAttribute("allReminders", null);
+				}
+	    		return "userLogDisplay";
+	    	} else {
+	                model.addAttribute("error", "No such user found");
+	                return "userLog"; 
+		    }
+    	}  else {
+	            model.addAttribute("error", "Please enter Details");
+	            return "userLog";
+	    }
     }
+
+
+	@RequestMapping(value = "/systemLog", method = RequestMethod.GET)
+    public String systemLog(Model model, @ModelAttribute("removeUser") removeUser rmUser,HttpSession session) {
+		   	removeUserDao dao = new removeUserDao();
+	    	ReminderController rc = new ReminderController();
+	        DriverManagerDataSource dataSource = rc.initialiseDataSource();
+	        dao.setDataSource(dataSource);
+	        CreateRem Reminder =  new CreateRem();
+	    	List<CreateRem> syslog =  new ArrayList<CreateRem>();
+	    	dao.setDataSource(dataSource);
+	    	syslog = dao.systemLogUser();
+			if(syslog.size()!=0) {
+					model.addAttribute("syslog", syslog);
+				}
+			else {
+					model.addAttribute("syslog", null);
+			}
+	    	return "systemLog";
+	  } 
     
 }
