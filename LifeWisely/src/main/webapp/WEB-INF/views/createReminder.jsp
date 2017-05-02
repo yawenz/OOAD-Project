@@ -17,9 +17,12 @@
 <a href="/LifeWisely/welcome">
 <img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
 </a>
+<h2 >LifeWisely</h2>
+<h6 style="color:#DAA520">Manage things that matter, better</h6>
+
 </div>
 
-		<form:form name="createReminder" method="POST" class="form-horizontal">
+		<form:form name="createReminder" method="POST" cssClass="form-horizontal">
 
 		<div align="center">
 			<table>

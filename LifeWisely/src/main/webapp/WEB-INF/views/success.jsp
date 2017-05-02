@@ -20,6 +20,9 @@
 <a href="/LifeWisely/welcome">
 <img align="middle" style="width: auto; height: auto;max-width: 200px;max-height: 200px" src="http://www.colorado.edu/libraries/profiles/express/themes/expressbase/images/cu-logo.svg">
 </a>
+<h2 >LifeWisely</h2>
+<h6 style="color:#DAA520">Manage things that matter, better</h6>
+
 </div>
 <div align="center">
 	<h2 style="float:left"> Welcome ${UserName} </h2>
@@ -31,7 +34,7 @@
 	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateReminder">Create Reminder</a>
 	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateExistingReminder">Create Existing Reminder</a>
 	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/CreateGroup">Create Group</a>
-	<a style="display:inline" class="btn btn-primary" href="/LifeWisely/UndoDelete">Undo delete reminder</a>
+	<a style="display:inline" class="btn btn-success" href="/LifeWisely/UndoDelete">Undo delete reminder</a>
 	
 	</div>
 <div align="center">	
@@ -53,8 +56,8 @@
        <td>${reminder.getFrequency()}</td>
        <td>${reminder.getStartTime()}</td>
        <td>${reminder.getEndTime()}</td> 
-       <td><a href="/LifeWisely/EditReminder?getId=${reminder.getID()}">Edit</a></td>
-       <td><a href="/LifeWisely/DeleteReminder?getId=${reminder.getID()}">Delete</a></td>
+       <td><a class="btn btn-info" href="/LifeWisely/EditReminder?getId=${reminder.getID()}">Edit</a></td>
+       <td><a class="btn btn-danger" href="/LifeWisely/DeleteReminder?getId=${reminder.getID()}">Delete</a></td>
        </tr>
 </c:forEach>
     </table> 
