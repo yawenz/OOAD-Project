@@ -33,11 +33,10 @@
 					<td>Password</td>
 					<td><input class="col-sm-8 control-label" type="password" name="password" /></td>
 				</tr>
-				<tr>
-					<td></td>
-					<td><input class="btn btn-primary" type="submit" value="Submit" /></td>
-				</tr>
 			</table>
+			<p> </p>
+			  <button type="submit" name="userLogin">User Login</button>
+ 			  <button type="submit" name="adminLogin">Admin Login</button>
 			<div style="color: red">${error}</div>
 
 		</div>
